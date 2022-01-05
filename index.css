@@ -1,48 +1,22 @@
-#git{
-    color:goldenrod;
-    background-color: greenyellow;
+body{
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
 }
-.paragraph{
-    color: rebeccapurple;
-background-color: yellowgreen;
-border: 2px dotted red;
-margin: 2%;
-padding: 5%;
-font-weight: bolder;
-font-size: larger;
-font-family: Georgia, 'Times New Roman', Times, serif;
+.parent{
+display: flex;
+justify-content: space-around;
 }
-.heading{
-    color: wheat;
-    background: grey;
-    border: 3px solid black;
-    margin: 5px;
-    padding: 5%;
-    font-weight: bolder;
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    text-size-adjust: 10px;
+.div-one{
+background-color: red;
+height: 200px;
+width: 200px;
 }
-#image{
-    height: 500;
-    width: 99%;
-    border: 5px dotted blue;
-    border-radius: 5px;
+.div-two{
+    background-color: blue;
+    height: 200px;
+width: 200px;
 }
-#name{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    background-color: black;
-    border: 3px solid red;
-    
-}
-.home{
-    color: salmon;
-    background-color: goldenrod;
-    border: 3px solid black;
+.div-three{
+    background-color: green;
+    height: 200px;
+width: 200px;
 }
